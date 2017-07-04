@@ -25,13 +25,13 @@ SECRET_KEY = ')yj6gijb#35w%_%p8-se+-op@uf!nj8ml6=hx6pidzglvfk9&1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.7', 'arvind1998.pythonanywhere.com']
+ALLOWED_HOSTS = ['192.168.1.7', 'arvind1998.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'music.apps.MusicConfig',
+    'music',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

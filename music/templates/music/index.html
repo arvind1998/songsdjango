@@ -1,3 +1,8 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}">
+
+
+
 <ul>
 	<h2>Here are all my albums:</h2>
 	{% for album in var_album %}
